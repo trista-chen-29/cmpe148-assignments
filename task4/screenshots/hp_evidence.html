@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HP evidence</title>
+  <style>
+    html, body { margin: 0; background: #1e1e1e; }
+    .term {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 16px;
+      line-height: 1.45;
+      color: #f2f2f2;
+      background: #1e1e1e;
+      padding: 28px 32px 36px;
+      white-space: pre;
+    }
+    .titlebar { color: #9ad1ff; }
+    .prompt { color: #7fd99a; }
+    .server { color: #ffd479; }
+  </style>
+</head>
+<body>
+<div class="term"><span class="titlebar">$ python3 client.py</span>
+Connected to TCP server at 127.0.0.1:5555
+Commands: title: &lt;text&gt; | swap: &lt;text&gt; | count | history | bye
+
+<span class="prompt">You: title: this is a message</span>
+<span class="server">Server: This Is A Message</span>
+<span class="prompt">You: swap: CMPE is Awesome</span>
+<span class="server">Server: cmpe IS aWESOME</span>
+<span class="prompt">You: hello world</span>
+<span class="server">Server: try again</span>
+<span class="prompt">You: count</span>
+<span class="server">Server: 4</span>
+<span class="prompt">You: history</span>
+<span class="server">Server: title: this is a message
+swap: CMPE is Awesome
+hello world
+count
+history</span>
+<span class="prompt">You: bye</span>
+<span class="server">Server: Goodbye.</span>
+</div>
+</body>
+</html>
