@@ -1,4 +1,4 @@
-# Task 4 — TCP Client-Server Application
+# HW2 Task 4 — TCP Client-Server Application
 
 ## Language and version
 
@@ -14,7 +14,7 @@ TCP is used because this assignment needs a persistent, ordered connection per c
 
 ## How to run
 
-Open two terminals. From this `task4` directory:
+Open two terminals. From this `hw2-task4` directory:
 
 **Terminal 1 — start the server first**
 
